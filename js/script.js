@@ -1,13 +1,26 @@
 /* 
-Front End
-> Keep the page from loading until API does its work
-1. take inputs from user to block the content => store it an array [latter keep it in local storage or make a request to backend to get the labels
-]
-2. Get all images URL in the website and store it in an array
-3. send the img array to the backend to block the images along with the labels
-4. get back an array containing array of image urls to block 
-5. blur/remove the images
-> Load the website and see the images blocked
+------------Front End---------------
+
+-> working of extension:
+    > Keep the page from loading until API does its work
+    > fetch labels from server and check if the login session is active or not
+      > if not active then login and get the labels
+      > login => storing the email and password in local storage or letting the user input it  each time
+    > Get all images URL in the website and store it in an array
+    > send the img array to the backend to block the images along with the labels
+    > get back an array containing array of image urls to block 
+    > blur/remove the images
+    > displavy the website
+
+-> features:
+    > Turning the extension on or off for the particular site or whole browser
+    > Login to the extension to maintain session to make API calls
+    > Setting, updating and Deleting the Labels
+    > An About page which takes user to the website of the extension
+
+-> Issues/edge cases:
+    > Handling infinite scroll in the website like reddit or google images
+    
 */
 
 // loading division

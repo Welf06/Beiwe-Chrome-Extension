@@ -7,16 +7,16 @@
 [![MIT License][license-shield]][license-url]
 [![Generic badge](https://img.shields.io/badge/Version-2.6-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/vishal-lokare/AutoJoomer)
 
-[contributors-shield]: https://img.shields.io/github/contributors/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[contributors-url]: https://github.com/vishal-lokare/AutoJoomer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[forks-url]: https://github.com/vishal-lokare/AutoJoomer/network/members
-[stars-shield]: https://img.shields.io/github/stars/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[stars-url]: https://github.com/vishal-lokare/AutoJoomer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[issues-url]: https://github.com/vishal-lokare/AutoJoomer/issues
-[license-shield]: https://img.shields.io/github/license/vishal-lokare/AutoJoomer?style=for-the-badge
-[license-url]: https://github.com/vishal-lokare/AutoJoomer/blob/main/LICENSE
+[contributors-shield]:https://img.shields.io/github/contributors/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[contributors-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[forks-url]: https://github.com/Welf06/Beiwe-Chrome-Extensionr/network/members
+[stars-shield]: https://img.shields.io/github/stars/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[stars-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[issues-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/issues
+[license-shield]: https://img.shields.io/github/license/Welf06/Beiwe-Chrome-Extension?style=for-the-badge
+[license-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/blob/main/LICENSE
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)

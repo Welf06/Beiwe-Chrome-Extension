@@ -2,8 +2,39 @@
 let loading_div = document.createElement('div');
 loading_div.id = "beiwe-loading-div-parent";
 loading_div.innerHTML = `<div id="beiwe-loading-div">
-<img id="beiwe-loading-image" src="https://i.imgur.com/jFDZGw7.gif" alt="Loading..." />
+  <div class="spinner beiwe-loading-image">
+  Loading
+  <div class="spinner-sector spinner-sector-red"></div>
+  <div class="spinner-sector spinner-sector-blue"></div>
+  <div class="spinner-sector spinner-sector-green"></div>
+  </div>
+
+  <br />
+  <br />
+
 </div>`
+
+// handling the situation if the backend stops working 
+setTimeout(() => {
+  loading_div.innerHTML = `<div id="beiwe-loading-div">
+  <div class="spinner beiwe-loading-image">
+  We Ran into Some Error
+  <br>
+  <br>
+  Website will open in a few seconds
+  </div>
+
+  <br />
+  <br />
+
+</div>`
+}, 9000);
+
+setTimeout(() => {
+  removeLoadingDiv();
+}, 14000);
+
+/* <img id="beiwe-loading-image" src="https://i.imgur.com/jFDZGw7.gif" alt="Loading..." /> */
 document.body.appendChild(loading_div);
 
 const email = 'neeraj.yathy@gmail.com';
@@ -72,7 +103,9 @@ function imgsToBlock(array, data, _callback) {
       console.log("retrieving urls to block from server");
       $.ajax({
         type: "GET",
-        url: `https://beiwe.herokuapp.com/extension/api_call?images=` + encodeURIComponent(JSON.stringify(data)),
+        url: `https://beiwe.herokuapp.com/extension/api_call`,
+
+        data: {"images=":data},
         success: function (data) {
           console.log(data);
           data = JSON.parse(data);
@@ -95,6 +128,10 @@ function imgsToBlock(array, data, _callback) {
             _callback(toBlock);
             return toBlock;
           }
+        },
+        error: function (error) {
+          removeLoadingDiv();
+          console.log(error);
         }
       });
     }
@@ -111,6 +148,11 @@ function removeLoadingDiv() {
 function blockImages(toBlock, imageLinks, removeLoadingDiv) {
   // console.log(toBlock.toString());
   // console.log(toBlock[0]);
+  if (toBlock.length === 0) {
+    console.log(`blockImages works`);
+    removeLoadingDiv();
+    return;
+  }
   for (const img_link of toBlock) {
     // console.log(img_link);
     for (const page_img of imageLinks){
@@ -119,6 +161,7 @@ function blockImages(toBlock, imageLinks, removeLoadingDiv) {
         page_img.style.display = "none";
       }
     }
+  console.log(`blockImages works`);
   removeLoadingDiv();
 }
 }

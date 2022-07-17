@@ -29,21 +29,6 @@ Made for Tech Optimum Hacks 2022
 
 ----------
 
-<h3 align="center"> Maintainers :- </h3>
-<table align='center'>
-    <tr align="center">
-        <td><a href="https://github.com/Welf06"><img src="https://avatars.githubusercontent.com/u/85446331?v=4" height="35" width="35" alt="Ganesh Nathan"></a></td>
-        <td><a href="https://github.com/NXPY123"><img src="https://avatars.githubusercontent.com/u/46917698?v=4" height="35" width="35" alt="Neeraj P Yatheendran"></a></td>
-        <td><a href="https://github.com/yashwanth-yasp"><img src="https://avatars.githubusercontent.com/u/100475760?v=4" height="35" width="35" alt="Yashwanth A Doddegowda"></a></td>
-        <td><a href="https://github.com/siddharth-2003"><img src="https://avatars.githubusercontent.com/u/98178520?s=40&v=4" height="35" width="35" alt="Siddharth Gupta"></a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/Welf06">Welf06</a></td>
-        <td><a href="https://github.com/NXPY123">NXPY123</a></td>
-        <td><a href="https://github.com/yashwanth-yasp">yashwanth-yasp</a></td>
-        <td><a href="https://github.com/siddharth-2003">siddharth-2003</a></td>
-    </tr>
-</table>
 
 ## About BEIWE
 
@@ -94,7 +79,20 @@ Repeat the installation process again.
 6. And that's it, now you are good to go!
 
 ## TEAM
-WEBSITE Link
+<table align='center'>
+    <tr align="center">
+        <td><a href="https://github.com/Welf06"><img src="https://avatars.githubusercontent.com/u/85446331?v=4" height="35" width="35" alt="Ganesh Nathan"></a></td>
+        <td><a href="https://github.com/NXPY123"><img src="https://avatars.githubusercontent.com/u/46917698?v=4" height="35" width="35" alt="Neeraj P Yatheendran"></a></td>
+        <td><a href="https://github.com/yashwanth-yasp"><img src="https://avatars.githubusercontent.com/u/100475760?v=4" height="35" width="35" alt="Yashwanth A Doddegowda"></a></td>
+        <td><a href="https://github.com/siddharth-2003"><img src="https://avatars.githubusercontent.com/u/98178520?s=40&v=4" height="35" width="35" alt="Siddharth Gupta"></a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Welf06">Welf06</a></td>
+        <td><a href="https://github.com/NXPY123">NXPY123</a></td>
+        <td><a href="https://github.com/yashwanth-yasp">yashwanth-yasp</a></td>
+        <td><a href="https://github.com/siddharth-2003">siddharth-2003</a></td>
+    </tr>
+</table>
 
 ## LICENSE
 *No license acquired yet*

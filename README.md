@@ -48,6 +48,7 @@ LOGO
 ## About BEIWE
 
 Beiwe is an Open Source browser extension that prevents the trigger of ***Phobias*** and ***PTSD*** by blocking the trigger object images from any website that you visit.
+Made for Tech Optimum Hacks 2022
 
 <!-- ## Getting Started
 1. Sign 

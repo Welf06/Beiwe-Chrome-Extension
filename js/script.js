@@ -28,11 +28,11 @@ setTimeout(() => {
   <br />
 
 </div>`
-}, 9000);
+}, 10000);
 
 setTimeout(() => {
   removeLoadingDiv();
-}, 14000);
+}, 20000);
 
 /* <img id="beiwe-loading-image" src="https://i.imgur.com/jFDZGw7.gif" alt="Loading..." /> */
 document.body.appendChild(loading_div);
@@ -62,7 +62,7 @@ for (let i = 0; i < imageLinks.length; i++) {
 }
 console.log(imageLinks)
 console.log(`getImageLinks works`)
-if (imageLinks.length===1) {
+if (imageLinks.length==0) {
   removeLoadingDiv();
 }
 else {
@@ -98,14 +98,20 @@ function imgsToBlock(array, data, _callback) {
   let toBlock = [];
   chrome.storage.sync.get("login_status", function (obj) {
     let login_data = obj.login_status;
+    console.log(`login_data is ${login_data}`);
     if (login_data === "logged in") {
       console.log(`imgsToBlock works`);
       console.log("retrieving urls to block from server");
-      $.ajax({
-        type: "GET",
-        url: `https://beiwe.herokuapp.com/extension/api_call`,
+      console.log(data);
 
-        data: {"images=":data},
+      $.ajax({
+        type: "POST",
+        url: `https://beiwe.herokuapp.com/extension/api_call`,
+        // headers : {
+        //   contentType : 'application/json',
+        // },
+        contentType: "application/json",
+        data: JSON.stringify({"images": data}),
         success: function (data) {
           console.log(data);
           data = JSON.parse(data);
@@ -134,6 +140,10 @@ function imgsToBlock(array, data, _callback) {
           console.log(error);
         }
       });
+    }
+    else if (login_data === "logged out") {
+      alert(`You are not logged in to Beiwe backend. Please login to Beiwe backend and try again.`);
+      removeLoadingDiv();
     }
   });
   

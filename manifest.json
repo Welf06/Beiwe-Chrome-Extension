@@ -7,6 +7,7 @@
       "cookies",
       "storage"
    ],
+   // "content_security_policy": "script-src 'nonce-8e!we'",
    "content_scripts": [
       {
          "matches": [

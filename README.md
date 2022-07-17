@@ -7,16 +7,16 @@
 [![MIT License][license-shield]][license-url]
 [![Generic badge](https://img.shields.io/badge/Version-2.6-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/vishal-lokare/AutoJoomer)
 
-[contributors-shield]: https://img.shields.io/github/contributors/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[contributors-url]: https://github.com/vishal-lokare/AutoJoomer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[forks-url]: https://github.com/vishal-lokare/AutoJoomer/network/members
-[stars-shield]: https://img.shields.io/github/stars/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[stars-url]: https://github.com/vishal-lokare/AutoJoomer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vishal-lokare/AutoJoomer.svg?style=for-the-badge
-[issues-url]: https://github.com/vishal-lokare/AutoJoomer/issues
-[license-shield]: https://img.shields.io/github/license/vishal-lokare/AutoJoomer?style=for-the-badge
-[license-url]: https://github.com/vishal-lokare/AutoJoomer/blob/main/LICENSE
+[contributors-shield]:https://img.shields.io/github/contributors/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[contributors-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[forks-url]: https://github.com/Welf06/Beiwe-Chrome-Extensionr/network/members
+[stars-shield]: https://img.shields.io/github/stars/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[stars-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
+[issues-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/issues
+[license-shield]: https://img.shields.io/github/license/Welf06/Beiwe-Chrome-Extension?style=for-the-badge
+[license-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/blob/main/LICENSE
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -25,40 +25,14 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
-LOGO
+Made for Tech Optimum Hacks 2022
 
 ----------
 
-<h3 align="center"> Maintainers :- </h3>
-<table align='center'>
-    <tr align="center">
-        <td><a href="https://github.com/Welf06"><img src="https://avatars.githubusercontent.com/u/85446331?v=4" height="35" width="35" alt="Ganesh Nathan"></a></td>
-        <td><a href="https://github.com/NXPY123"><img src="https://avatars.githubusercontent.com/u/46917698?v=4" height="35" width="35" alt="Neeraj P Yatheendran"></a></td>
-        <td><a href="https://github.com/yashwanth-yasp"><img src="https://avatars.githubusercontent.com/u/100475760?v=4" height="35" width="35" alt="Yashwanth A Doddegowda"></a></td>
-        <td><a href="https://github.com/siddharth-2003"><img src="https://avatars.githubusercontent.com/u/98178520?s=40&v=4" height="35" width="35" alt="Siddharth Gupta"></a></td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/Welf06">Welf06</a></td>
-        <td><a href="https://github.com/NXPY123">NXPY123</a></td>
-        <td><a href="https://github.com/yashwanth-yasp">yashwanth-yasp</a></td>
-        <td><a href="https://github.com/siddharth-2003">siddharth-2003</a></td>
-    </tr>
-</table>
-
-<h3 align="center"> Amazing Contributors :-</h3>
-
-<table align='center'>
-    <tr>
-        <td><a href=""><img src="" alt="SJSK"></a></td>
-    </tr>
-    <tr>
-        <td><a href="">SJSK</a></td>
-    </tr>
-</table>
 
 ## About BEIWE
 
-Beiwe is an Open Source browser extension that prevents the trigger of ***Phobias*** and ***PTSD*** by blocking the trigger object images from any website that you visit.
+Beiwe is a browser extension that prevents the trigger of ***Phobias*** and ***PTSD*** by blocking the trigger object images from any website that you visit.
 
 <!-- ## Getting Started
 1. Sign 
@@ -105,7 +79,20 @@ Repeat the installation process again.
 6. And that's it, now you are good to go!
 
 ## TEAM
-WEBSITE Link
+<table align='center'>
+    <tr align="center">
+        <td><a href="https://github.com/Welf06"><img src="https://avatars.githubusercontent.com/u/85446331?v=4" height="35" width="35" alt="Ganesh Nathan"></a></td>
+        <td><a href="https://github.com/NXPY123"><img src="https://avatars.githubusercontent.com/u/46917698?v=4" height="35" width="35" alt="Neeraj P Yatheendran"></a></td>
+        <td><a href="https://github.com/yashwanth-yasp"><img src="https://avatars.githubusercontent.com/u/100475760?v=4" height="35" width="35" alt="Yashwanth A Doddegowda"></a></td>
+        <td><a href="https://github.com/siddharth-2003"><img src="https://avatars.githubusercontent.com/u/98178520?s=40&v=4" height="35" width="35" alt="Siddharth Gupta"></a></td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/Welf06">Welf06</a></td>
+        <td><a href="https://github.com/NXPY123">NXPY123</a></td>
+        <td><a href="https://github.com/yashwanth-yasp">yashwanth-yasp</a></td>
+        <td><a href="https://github.com/siddharth-2003">siddharth-2003</a></td>
+    </tr>
+</table>
 
 ## LICENSE
 *No license acquired yet*

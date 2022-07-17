@@ -45,17 +45,6 @@ LOGO
     </tr>
 </table>
 
-<h3 align="center"> Amazing Contributors :-</h3>
-
-<table align='center'>
-    <tr>
-        <td><a href=""><img src="" alt="SJSK"></a></td>
-    </tr>
-    <tr>
-        <td><a href="">SJSK</a></td>
-    </tr>
-</table>
-
 ## About BEIWE
 
 Beiwe is an Open Source browser extension that prevents the trigger of ***Phobias*** and ***PTSD*** by blocking the trigger object images from any website that you visit.

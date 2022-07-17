@@ -9,11 +9,11 @@
    left: 0;
    opacity: 1;
    background-color: #fff;
-   z-index: 99;
+   z-index: 99999;
  }
  
  #beiwe-loading-image {
-   z-index: 100;
+   z-index: 100000;
    height: 80%;
    width: 80%;
  }

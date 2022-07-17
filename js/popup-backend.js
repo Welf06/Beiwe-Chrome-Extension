@@ -20,7 +20,7 @@ chrome.storage.sync.get("session_key", (obj) => {
    token = session_key;
 });
 
-loginData = {
+let loginData = {
   "data": {
     "email": email,
     "password": password,
@@ -28,14 +28,14 @@ loginData = {
   }
 }
 
-logoutData = {
+let logoutData = {
   "data": {
     "email": email,
     "session_key": token
   }
 }
 
-const labels = ['covid-19', 'coronavirus', 'car', 'clown', 'cross', 'class'];
+const labels = ['covid-19', 'coronavirus', 'car', 'clown', 'cross', 'class', 'dog'];
 const labelData = {
 "data": {
    "labels": labels,

@@ -35,7 +35,7 @@ let logoutData = {
   }
 }
 
-const labels = ['covid-19', 'coronavirus', 'car', 'clown', 'cross', 'class', 'dog'];
+const labels = ['balls','covid-19', 'coronavirus', 'car', 'clown', 'cross', 'class', 'Dog'];
 const labelData = {
 "data": {
    "labels": labels,
@@ -106,8 +106,8 @@ function setLabel(labelData) {
             console.log(data);
             data = JSON.parse(data);
             if (data.status === "user not logged in"){
-               // login(loginData);
-               // setLabel(labelData);
+               login(loginData);
+               setLabel(labelData);
             }
             else if (data.status === "labels updated/inserted"){
                console.log(`labels set`);

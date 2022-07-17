@@ -28,28 +28,30 @@ setTimeout(() => {
   <br />
 
 </div>`
-}, 10000);
+}, 20000);
 
 setTimeout(() => {
   removeLoadingDiv();
-}, 20000);
+}, 25000);
 
 /* <img id="beiwe-loading-image" src="https://i.imgur.com/jFDZGw7.gif" alt="Loading..." /> */
 document.body.appendChild(loading_div);
 
 const email = 'neeraj.yathy@gmail.com';
 const password = '1234';
-
-
+let imgRequestData = {}
+window.addEventListener('load', (event) => {
+  imgRequestData = {
+    "data": {
+      "img_urls": getImageLinks(getSessionKey, removeLoadingDiv),
+      "email": email,
+      // "session_key": token,
+      // "website": window.location.href
+    }
+  };
+});
 // console.log(getImageLinks(getSessionKey));
-let imgRequestData = {
-  "data": {
-    "img_urls": getImageLinks(getSessionKey, removeLoadingDiv),
-    "email": email,
-    // "session_key": token,
-    // "website": window.location.href
-  }
-};
+
 
 // getting the images link 
 function getImageLinks(_callgetSessionKey, removeLoadingDiv) {
@@ -66,8 +68,10 @@ if (imageLinks.length==0) {
   removeLoadingDiv();
 }
 else {
+  console.log(imgArray);
   _callgetSessionKey(imageLinks);
 }
+
 return imgArray;
 }
 
@@ -151,6 +155,12 @@ function imgsToBlock(array, data, _callback) {
 
 // removing the loading once the blocked images are hidden
 function removeLoadingDiv() {
+  // get all images from the website and hide them
+  let images = document.querySelectorAll('img');
+  for (let i = 0; i < images.length; i++) {
+    images[i].style.display = "none";
+  }
+  // get the loading div and remove it
   document.querySelector('#beiwe-loading-div-parent').remove();
   console.log(`removed loading div`);
 }
@@ -166,7 +176,7 @@ function blockImages(toBlock, imageLinks, removeLoadingDiv) {
   for (const img_link of toBlock) {
     // console.log(img_link);
     for (const page_img of imageLinks){
-      console.log(page_img);
+      // console.log(page_img);
       if (img_link === page_img.src){
         page_img.style.display = "none";
       }

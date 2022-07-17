@@ -25,7 +25,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
-LOGO
+Made for Tech Optimum Hacks 2022
 
 ----------
 
@@ -48,7 +48,6 @@ LOGO
 ## About BEIWE
 
 Beiwe is an Open Source browser extension that prevents the trigger of ***Phobias*** and ***PTSD*** by blocking the trigger object images from any website that you visit.
-Made for Tech Optimum Hacks 2022
 
 <!-- ## Getting Started
 1. Sign 

@@ -5,7 +5,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![Generic badge](https://img.shields.io/badge/Version-2.6-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/vishal-lokare/AutoJoomer)
+[![Generic badge](https://img.shields.io/badge/Version-0.1-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/vishal-lokare/AutoJoomer)
 
 [contributors-shield]:https://img.shields.io/github/contributors/Welf06/Beiwe-Chrome-Extension.svg?style=for-the-badge
 [contributors-url]: https://github.com/Welf06/Beiwe-Chrome-Extension/graphs/contributors

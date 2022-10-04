@@ -4,10 +4,8 @@
    "version": "0.1",
    "description": "Beiwe",
    "permissions":[
-      "cookies"
-   ],
-   "host_permissions": [
-      "https://beiwe.herokuapp.com"
+      "cookies",
+      "storage"
    ],
    "content_scripts": [
       {
@@ -27,6 +25,7 @@
    "background": {
       "service_worker": "js/background.js"
    },
+   "icons": {"128": "img/icon128.png"},
    "action":{
       "default_icon": "assets/icon.png",
       "default_popup": "popup.html"
